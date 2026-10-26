@@ -28,7 +28,7 @@ A clean, feature-rich weather extension for GNOME Shell 50+.
 ## Installation
 
 ### From extensions.gnome.org
-Search for **Weather Prime** and install directly from the browser extension. After you have done that, follow the directions below to manually install the working version here. I have changed the metadata to match what is available on the Gnome Shell Extensions website so this will not automatically attempt to "upgrade" to the old version. If the version on the Gnome Extensions website does upgrade, this version will also automatically upgrade as normal.
+Search for **Weather Prime** and install directly from the browser extension. After you have done that, follow the directions below to manually install the working version here. I have changed the metadata to match what is available on the Gnome Shell Extensions website so this will not automatically attempt to "upgrade" to the old version. If the version on the Gnome Extensions website does upgrade, this version will also automatically upgrade as normal. You may have to log out and back in to see the updated extension. After than, configure it as outlined below.
 
 ### Manual
 ```bash
