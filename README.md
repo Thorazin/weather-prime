@@ -28,18 +28,24 @@ A clean, feature-rich weather extension for GNOME Shell 50+.
 ## Installation
 
 ### From extensions.gnome.org
-Search for **Weather Prime** and install directly from the browser extension. After you have done that, follow the directions below to manually install the working version here. I have changed the metadata to match what is available on the Gnome Shell Extensions website so this will not automatically attempt to "upgrade" to the old version. If the version on the Gnome Extensions website does upgrade, this version will also automatically upgrade as normal. You may have to log out and back in to see the updated extension. After that, configure it as outlined below.
+If you have the version from the Gnome Extensions website, remove it fully. To make sure log out and back in after removing it. It makes the manual install much easier. Once that is done, follow the manual installation steps below.
 
 ### Manual
 ```bash
 git clone https://github.com/Thorazin/weather-prime.git
+
 cd weather-prime
-mkdir -p ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime
-cp extension.js stylesheet.css metadata.json prefs.js \
+
+sudo mkdir -p ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime
+
+sudo cp extension.js stylesheet.css metadata.json prefs.js \
    ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime/
-cp -r schemas icons ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime/
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime/schemas/
-gnome-extensions enable weather-prime@weather-prime
+
+sudo cp -r schemas icons ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime/
+
+sudo glib-compile-schemas ~/.local/share/gnome-shell/extensions/weather-prime@weather-prime/schemas/
+
+sudo gnome-extensions enable weather-prime@weather-prime
 ```
 
 ## Configuration
