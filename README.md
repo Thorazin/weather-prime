@@ -22,8 +22,8 @@ A clean, feature-rich weather extension for GNOME Shell 50+.
 
 ## Requirements
 
-- GNOME Shell 50
-- Fedora 44 (or any distro running GNOME 50)
+- GNOME Shell 50+
+- Fedora 44 (or any distro running GNOME 50+)
 
 ## Installation
 
