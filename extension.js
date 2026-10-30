@@ -1215,7 +1215,7 @@ function hbox(styleClass = '') {
 }
 
 function vbox(styleClass = '') {
-    return new St.BoxLayout({vertical: true, style_class: styleClass, x_expand: true});
+    return new St.BoxLayout({orientation: Clutter.Orientation.VERTICAL, style_class: styleClass, x_expand: true});
 }
 
 function spacer() {
