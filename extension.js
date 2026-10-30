@@ -1964,7 +1964,7 @@ class WeatherPanel {
         const cellSize = Math.floor(tileDisplay / 2);
 
         const grid = new St.BoxLayout({
-            vertical:    true,
+            orientation: Clutter.Orientation.VERTICAL,
             style_class: 'wp-map-stack',
             x_align:     Clutter.ActorAlign.CENTER,
         });
